@@ -96,7 +96,5 @@ def main():
         print('')
     with open(args.output,"w") as f:
         SeqIO.write(records, f, "fasta")
-
-
 if __name__ == '__main__':
     main()
