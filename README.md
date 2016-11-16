@@ -8,3 +8,8 @@ editFasta
 * biopython
 * PyVCF
 
+## how to use
+```
+$ python replace_reference_by_vcf.py -r reference.fa --snp snp.vcf --indel indel.vcf -o edited.fa
+```
+
